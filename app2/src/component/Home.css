@@ -1,0 +1,13 @@
+/* Home.css */
+@keyframes colorChange {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: pink; }
+    15% { color: yellow; }
+    100% { color: red; }
+  }
+  
+  .color-animation {
+    animation: colorChange 3s infinite; /* Adjust the duration as needed */
+  }
+  

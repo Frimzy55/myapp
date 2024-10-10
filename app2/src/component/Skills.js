@@ -1,11 +1,11 @@
 import React from 'react'
 
-import h from '../assets/html.png'
-import c from '../assets/Css 3.png'
+import h from '../assets/database.jpeg'
+import c from '../assets/com.jpeg'
 import f from '../assets/Figma.png'
-import g from '../assets/Github.png'
+import g from '../assets/git.png'
 import j from '../assets/Js.png'
-import m from '../assets/Mysql.png'
+import m from '../assets/jav.png'
 import p from '../assets/Python.png'
 import r from '../assets/React.png'
 
@@ -21,11 +21,11 @@ const Skills = () => {
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap text-center py-8'> 
           <div className=' shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={h} alt=''/>
-            <p className='my-4'>HTML</p>
+            <p className='my-4'>DATABASE</p>
           </div>
           <div className=' shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={c} alt=''/>
-            <p className='my-4'>CSS</p>
+            <p className='my-4'>COMPUTER VISION</p>
           </div>
           <div className=' shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={f} alt=''/>
@@ -33,7 +33,7 @@ const Skills = () => {
           </div>
           <div className=' shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={g} alt=''/>
-            <p className='my-4'>GITHUB</p>
+            <p className='my-4'>GIT</p>
           </div>
           <div className=' shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={j} alt=''/>
@@ -41,7 +41,7 @@ const Skills = () => {
           </div>
           <div className=' shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={m} alt=''/>
-            <p className='my-4'>MYSQL</p>
+            <p className='my-4'>JAVA</p>
           </div>
           <div className=' shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={p} alt=''/>

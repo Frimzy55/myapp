@@ -5,6 +5,8 @@ import Signup from "./Signup";
 import Skills from "./component/Skills";
 import Work from "./component/Work";
 import Contact from "./component/Contact";
+///import Workk from "./component/workk";
+import Viework from "./component/Viework"
 
 
 
@@ -23,10 +25,12 @@ function App() {
       <Skills/>
       <Work/>
       <Contact/>
+      <Viework/>
+      
       
     </div>
     
   );
 }
 
-export default App;
+export default App;      
